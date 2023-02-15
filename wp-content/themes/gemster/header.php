@@ -11,8 +11,6 @@
 
   <body <?php body_class(); ?>>
 
-  <p> logo </p>
-
   <?php
   wp_body_open();
 

@@ -1,5 +1,41 @@
+@font-face{
+    font-family: "Im-Fell";
+    src: url("../font/IMFellFrenchCanon-Regular.ttf") format(ttf);
+}
+
+@font-face{
+    font-family: "Im-Fell-Italic";
+    src: url("../font/IMFellFrenchCanon-Italic.ttf") format(ttf);
+}
+
+:root{
+    --surface-primary: #FEFCED;
+    --element-primary: #401540;
+    --element-subtle: #CBB6CD;
+    --brand-primary: #7E4584;
+    --link: #0051A8;
+}
+
 *{
     box-sizing: border-box;
+    font-family: "Im-Fell", serif;
+}
+
+body{
+    background-color: var(--surface-primary);
+    color: var(--element-primary);
+}
+
+a{
+    color: var(--link);
+}
+
+.content-block{
+    max-width: 44rem;
+    margin: 0 auto;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .content-block h1{
@@ -14,4 +50,43 @@
 .content-block p{
     font-size: 1.25rem;
     line-height: 2.375rem;
+}
+
+.menu-primary-menu-container{
+    background-color: var(--surface-primary);
+
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+    max-width: 75rem;
+}
+
+.menu-item{
+    list-style-type: none;
+}
+
+.menu-item a{
+    color: var(--brand-primary);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu-item a:hover{
+    color: var(--element-primary);
 }
