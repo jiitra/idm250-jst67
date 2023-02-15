@@ -15,7 +15,21 @@ wp_enqueue_style('gemster-styles', get_template_directory_uri() . '/dist/styles/
 
 }
 
+function register_theme_menus(){
+    register_nav_menus(
+        [
+            'primary-menu' => 'Primary Menu',
+            'footer-menu' => 'Footer Menu'
+        ]
+    );
+}
+
+add_action('init', 'register_theme_menus');
+
 add_action('wp_enqueue_scripts' , 'theme_scripts_and_styles');
+
+add_theme_support('post-thumbnails');
+add_post_type_support('page', 'excerpt');
 
 
 ?>

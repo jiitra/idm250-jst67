@@ -9,6 +9,13 @@
     <?php wp_head(); ?>
   </head>
 
-  <body>
+  <body <?php body_class(); ?>>
 
   <p> logo </p>
+
+  <?php
+  wp_body_open();
+
+  wp_nav_menu(['theme_location' => 'primary-menu']); 
+
+  ?>

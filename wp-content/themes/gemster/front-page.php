@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
-Front page
+<?php echo get_the_title(); ?>
+<?php get_template_part('components/content'); ?>
 
 <?php get_footer(); ?>
