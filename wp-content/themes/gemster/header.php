@@ -11,9 +11,10 @@
 
   <body <?php body_class(); ?>>
 
-  <?php
-  wp_body_open();
+  <?php wp_body_open(); ?>
 
-  wp_nav_menu(['theme_location' => 'primary-menu']); 
-
-  ?>
+  <header>
+    <p class="header-logo">Gemster logo</p>
+    <?php wp_nav_menu(['theme_location' => 'primary-menu']); ?>
+    <p class="socials">Twitter logo Instagram logo</p>
+  </header>
