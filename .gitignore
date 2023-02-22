@@ -78,6 +78,8 @@ Thumbs.db
 *.tar
 *.zip
 
+*.svg
+
 # -------------------------
 # BEGIN Whitelisted Files
 # -------------------------
