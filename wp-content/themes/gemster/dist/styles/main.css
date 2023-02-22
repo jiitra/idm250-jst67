@@ -1,11 +1,11 @@
 @font-face{
-    font-family: Im-Fell;
-    src: url("../font/IMFellFrenchCanon-Regular.ttf") format(ttf);
+    font-family: 'Im-Fell';
+    src: url("../font/IMFellFrenchCanon-Regular.woff") format("woff");
 }
 
 @font-face{
-    font-family: Im-Fell-Italic;
-    src: url("../font/IMFellFrenchCanon-Italic.ttf") format(ttf);
+    font-family: 'Im-Fell-Italic';
+    src: url("../font/IMFellFrenchCanon-Italic.woff") format("woff");
 }
 
 :root{
@@ -18,7 +18,7 @@
 
 *{
     box-sizing: border-box;
-    font-family: Im-Fell, "Times New Roman", serif;
+    font-family: 'Im-Fell', "Times New Roman", serif;
 }
 
 body{
@@ -29,6 +29,10 @@ body{
 
 a{
     color: var(--link);
+}
+
+em{
+    font-family: 'Im-Fell-Italic', "Times New Roman", serif;
 }
 
 .content-block, .title{
@@ -45,6 +49,7 @@ a{
 
 h1{
     font-size: 6rem;
+    letter-spacing: 0.3rem;
 }
 
 h2{
@@ -54,6 +59,7 @@ h2{
 .content-block h3{
     font-size: 2.5rem;
     margin-top: 4rem;
+    letter-spacing: 0.1rem;
 }
 
 .content-block p{

@@ -24,6 +24,27 @@ function register_theme_menus(){
     );
 }
 
+function register_custom_post_types()
+{
+    // Register gems post type
+    register_post_type(
+        'gems',
+        [
+            'labels' => [
+                'name' => __('gems'),
+                'singular_name' => __('gem')
+            ],
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => ['slug' => 'gems'],
+            'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+            'show_in_rest' => true,
+        ]
+    );
+}
+
+add_action('init', 'register_custom_post_types');
+
 add_action('init', 'register_theme_menus');
 
 add_action('wp_enqueue_scripts' , 'theme_scripts_and_styles');
