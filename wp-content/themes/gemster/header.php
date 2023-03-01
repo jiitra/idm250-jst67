@@ -16,12 +16,18 @@
 
   <header>
     <div class="content">
-      <img src="<?php echo get_template_directory_uri(); ?>/dist/img/gemster-brand.svg" alt="Logo">
-      <?php wp_nav_menu(['theme_location' => 'primary-menu']); ?>
+      <a href="<?php echo site_url(); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/dist/img/gemster-brand.svg" alt="Logo">
+        <?php wp_nav_menu(['theme_location' => 'primary-menu']); ?>
+      </a>
 
       <div>
-        <img id="twitter" src="<?php echo get_template_directory_uri(); ?>/dist/img/twitter-brand.svg" alt="Twitter">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/img/insta-brand.svg" alt="Instagram">
+        <a href="https://twitter.com/home" target="_blank">
+          <img id="twitter" src="<?php echo get_template_directory_uri(); ?>/dist/img/twitter-brand.svg" alt="Twitter">
+        </a>
+        <a href="https://www.instagram.com/?hl=en" target="_blank">
+          <img src="<?php echo get_template_directory_uri(); ?>/dist/img/insta-brand.svg" alt="Instagram">
+        </a>
       </div>
     </div>
 
