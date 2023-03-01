@@ -35,6 +35,32 @@ em{
     font-family: 'Im-Fell-Italic', "Times New Roman", serif;
 }
 
+button{
+   background-color: var(--surface-primary);
+   border: var(--element-primary) 1px solid;
+   font-family: 'Im-Fell-Italic', "Times New Roman", serif;
+   color: var(--element-primary);
+   font-size: 1.5rem;
+   padding: 0.5rem 7rem;
+
+   margin: 0 auto;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.div-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mb{
+    height: 80vh;
+}
+
 .hero{
     height: 60vh;
     width: 100vw;
@@ -242,6 +268,7 @@ header .content{
 
 .huge{
     font-size: 8rem;
+    margin-top: 0;
 }
 
 footer{
