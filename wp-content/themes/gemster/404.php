@@ -1,4 +1,6 @@
+<title>404 | Gemster</title>
 <?php get_header(); ?>
+
 
 <div class="div-center mb">
     <h1 class="center huge">404</h1>
