@@ -46,6 +46,10 @@ button{
    margin: 0 auto;
 }
 
+.widget-area li{
+    list-style: none;
+}
+
 button:hover{
     cursor: pointer;
 }
@@ -112,6 +116,30 @@ button:hover{
     border-radius: 50%;
     height: 300px;
     width: 300px;
+}
+
+.wp-block-image img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: -40px;
+}
+
+.wp-block-group__inner-container h4{
+    font-family: 'Im-Fell-Italic', "Times New Roman", serif;
+}
+
+.wp-block-group__inner-container a{
+    color: var(--element-primary);
+    font-family: 'Im-Fell-Italic', "Times New Roman", serif;
+}
+
+.wp-block-group__inner-container{
+    border: var(--element-subtle) 2px solid;
+    padding: 16px;
+    padding-top: 32px;
 }
 
 
@@ -328,6 +356,15 @@ header .content{
     margin: 0;
     margin-top: 1rem;
 }
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 100vh;
+    margin-right: 100px;
+    }
 
 footer{
     background-color: var(--element-primary);
