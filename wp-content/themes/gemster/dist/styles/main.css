@@ -118,14 +118,14 @@ button:hover{
     width: 300px;
 }
 
-/* .wp-block-image img{
+.widget-area img{
     object-fit: cover;
     border-radius: 50%;
     height: 80px;
     width: 80px;
     position: absolute;
     top: -40px;
-} */
+}
 
 .wp-block-group__inner-container h4{
     font-family: 'Im-Fell-Italic', "Times New Roman", serif;
