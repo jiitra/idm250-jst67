@@ -15,7 +15,7 @@
   <?php wp_body_open(); ?>
 
   <header>
-    <div class="content">
+    <div class="header-content">
       <a href="<?php echo site_url(); ?>">
         <img src="<?php echo get_template_directory_uri(); ?>/dist/img/gemster-brand.svg" alt="Logo">
         <?php wp_nav_menu(['theme_location' => 'primary-menu']); ?>

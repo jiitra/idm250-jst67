@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content-home">
 <?php
 
 if (have_posts()){
@@ -11,4 +11,4 @@ if (have_posts()){
 }
 
 ?>
- </div>
+</div>
