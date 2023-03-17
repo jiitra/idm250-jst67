@@ -18,7 +18,7 @@ $blog_posts_query = new WP_Query($args);
 <div>
   <div>
     <div>
-      <h2>
+      <h2 class="div-center">
         <?php echo get_the_title(); ?>
       </h2>
       <div class="listing-grid">

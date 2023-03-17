@@ -313,7 +313,7 @@ figcaption {
   margin-bottom: 3rem;
 }
 
-.nav-menu {
+header {
   background-color: var(--surface-primary);
   width: 100vw;
   position: sticky;
@@ -399,8 +399,8 @@ figcaption {
 
 .blog-card {
   width: 32rem;
-  height: 27rem;
-  padding: 2rem;
+  height: 22rem;
+  padding: 1rem;
 }
 
 .blog-card p {
@@ -426,6 +426,7 @@ figcaption {
 
 .blog-card h3 {
   margin: 0;
+  margin-top: 1rem;
 }
 
 .featured-post img,
@@ -455,6 +456,27 @@ figcaption {
 
 .wp-block-image {
   margin-top: 1rem;
+}
+
+.wp-block-media-text {
+  text-align: left;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.wp-block-media-text__media {
+  justify-self: end;
+}
+
+.wp-block-media-text__content {
+  max-width: 520px;
+}
+
+.wp-block-media-text img {
+  height: 500px;
+  width: 550px;
+  object-fit: cover;
 }
 
 footer {
@@ -492,6 +514,16 @@ footer a:hover {
   font-size: 0.8rem;
   letter-spacing: 0.06rem;
   margin-top: 1.25rem;
+}
+
+.featured-post p {
+  font-size: 1.3rem;
+}
+
+.featured-post h5 {
+  margin-bottom: 0;
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 
 .ham-menu {

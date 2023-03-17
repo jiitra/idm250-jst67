@@ -24,6 +24,10 @@ function register_theme_menus(){
     );
 }
 
+add_filter( 'excerpt_length', function($length) {
+    return 20;
+}, PHP_INT_MAX );
+
 function register_custom_post_types()
 {
     // Register gems post type

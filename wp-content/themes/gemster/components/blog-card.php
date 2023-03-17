@@ -10,7 +10,6 @@
   <div>
     <img src="<?php echo get_the_post_thumbnail_url(); ?>"
       alt="<?php echo get_the_title(); ?> Featured Image">
-    <div ></div>
   </div>
   <div>
     <div>
