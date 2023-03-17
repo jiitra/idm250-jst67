@@ -313,7 +313,7 @@ figcaption {
   margin-bottom: 3rem;
 }
 
-header {
+.nav-menu {
   background-color: var(--surface-primary);
   width: 100vw;
   position: sticky;
@@ -453,6 +453,10 @@ header {
   margin-right: 100px;
 }
 
+.wp-block-image {
+  margin-top: 1rem;
+}
+
 footer {
   background-color: var(--element-primary);
   color: var(--surface-primary);
@@ -488,6 +492,10 @@ footer a:hover {
   font-size: 0.8rem;
   letter-spacing: 0.06rem;
   margin-top: 1.25rem;
+}
+
+.ham-menu {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
