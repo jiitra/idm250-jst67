@@ -17,27 +17,38 @@
 <header>
 
   <div class="nav-menu">
+
     <div class="header-content">
+
       <a href="<?php echo site_url(); ?>">
         <img src="<?php echo get_template_directory_uri(); ?>/dist/img/gemster-brand.svg" alt="Logo">
       </a>
 
-      <?php wp_nav_menu(['theme_location' => 'primary-menu']); ?>
-    
-      <div>
-        <a href="https://twitter.com/home" target="_blank">
-          <img id="twitter" src="<?php echo get_template_directory_uri(); ?>/dist/img/twitter-brand.svg" alt="Twitter">
-        </a>
-        <a href="https://www.instagram.com/?hl=en" target="_blank">
-          <img src="<?php echo get_template_directory_uri(); ?>/dist/img/insta-brand.svg" alt="Instagram">
-        </a>
-      </div>
+        <?php wp_nav_menu(['theme_location' => 'primary-menu']); ?>
+      
+        <div>
+          <a href="https://twitter.com/home" target="_blank">
+            <img id="twitter" src="<?php echo get_template_directory_uri(); ?>/dist/img/twitter-brand.svg" alt="Twitter">
+          </a>
+          <a href="https://www.instagram.com/?hl=en" target="_blank">
+            <img src="<?php echo get_template_directory_uri(); ?>/dist/img/insta-brand.svg" alt="Instagram">
+          </a>
+        </div>
 
-    <div class="ham-menu">
-      <svg viewBox="0 0 100 80" width="40" height="40">
-        <rect width="100" height="20"></rect>
-        <rect y="30" width="100" height="20"></rect>
-        <rect y="60" width="100" height="20"></rect>
-      </svg>
     </div>
+
+
+    <div class="mobile-nav">
+      <a href="<?php echo site_url(); ?>">
+          <img class="mobile-logo" src="<?php echo get_template_directory_uri(); ?>/dist/img/gemster-brand.svg" alt="Logo">
+      </a>
+
+        <img id="trigger-overlay" src="<?php echo get_template_directory_uri(); ?>/dist/img/hamburger.png" alt="Hamburger menu">
+        <div class="overlay overlay-slidedown">
+          <img id="close-overlay" src="<?php echo get_template_directory_uri(); ?>/dist/img/close.png" alt="Close button">
+
+          <?php wp_nav_menu(['theme_location' => 'primary-menu']); ?>
+        </div>
+    </div>
+</div>
   </header>
