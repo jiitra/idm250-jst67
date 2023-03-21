@@ -546,10 +546,46 @@ footer a:hover {
   display: none;
 }
 
+@media screen and (max-width: 876px) {
+  .hero-home {
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .hero-home img {
+    opacity: 50%;
+    top: -70vh;
+    /* position: relative; */
+  }
+
+  .horizontal-line-home {
+    visibility: hidden;
+  }
+
+  .hero-home h1,
+  .hero-home p,
+  .hero-home button {
+    /* margin: auto; */
+    text-align: center;
+  }
+
+  .home-group h1 {
+    margin: auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #menu-primary-menu-2 {
     flex-direction: column;
     gap: 1.2rem;
     align-items: center;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .featured-post {
+    margin: 2rem 1rem;
   }
 }
