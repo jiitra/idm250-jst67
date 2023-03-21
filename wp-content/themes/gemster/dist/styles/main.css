@@ -679,4 +679,9 @@ footer a:hover {
   .featured-post {
     margin: 2rem 1rem;
   }
+
+  .blog-card {
+    max-width: 90vw;
+    height: fit-content;
+  }
 }
