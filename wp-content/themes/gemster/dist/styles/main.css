@@ -684,4 +684,8 @@ footer a:hover {
     max-width: 90vw;
     height: fit-content;
   }
+
+  .hero-single h5 {
+    top: 40%;
+  }
 }
