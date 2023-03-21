@@ -635,6 +635,10 @@ footer a:hover {
     align-items: center;
     justify-content: center;
   }
+
+  .sidebar-group {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 876px) {
