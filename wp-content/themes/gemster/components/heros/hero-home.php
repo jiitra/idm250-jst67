@@ -10,8 +10,8 @@
     if ($cta_button): ?>
         <button onclick="window.location.href = '<?php echo $cta_button['button_link']?>';" type="button"> <?php echo $cta_button['button_text']; ?> </button>
     <?php endif; ?>
-
+    <div class="horizontal-line horizontal-line-home hero-line"></div>
 </div>
-<div class="horizontal-line horizontal-line-home hero-line"></div>
+
 
 
