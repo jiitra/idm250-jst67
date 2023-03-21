@@ -4,7 +4,6 @@
 <?php get_template_part('components/heros/hero-home'); ?>
 
 <div class="front-page">
-<?php get_template_part('components/bg-img-block'); ?>
 
    <?php get_template_part('components/content-home'); ?>
 

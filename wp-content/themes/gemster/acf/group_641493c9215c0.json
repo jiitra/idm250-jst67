@@ -1,6 +1,6 @@
 {
     "key": "group_641493c9215c0",
-    "title": "Background Img Block",
+    "title": "Background Img Block stop",
     "fields": [
         {
             "key": "field_641493c92c50f",
@@ -107,7 +107,7 @@
             "aria-label": "",
             "type": "image",
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -141,8 +141,8 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "active": true,
+    "active": false,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1679070773
+    "modified": 1679355483
 }

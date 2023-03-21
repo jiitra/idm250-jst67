@@ -35,14 +35,16 @@ em {
   font-family: "Im-Fell-Italic", "Times New Roman", serif;
 }
 
-button {
-  background-color: var(--surface-primary);
+button,
+.wp-element-button,
+wp-block-button {
+  background-color: #00000000;
   border: var(--element-primary) 1px solid;
   font-family: "Im-Fell-Italic", "Times New Roman", serif;
   color: var(--element-primary);
   font-size: 1.5rem;
   padding: 0.5rem 7rem;
-
+  border-radius: 0;
   margin: 0 auto;
 }
 
@@ -173,6 +175,11 @@ button:hover {
 .vertical-line {
   border-left: var(--brand-primary) 2px solid;
   height: 15vh;
+}
+
+.white {
+  border-color: var(--surface-primary);
+  margin: auto;
 }
 
 .hero-line {
@@ -461,8 +468,7 @@ header {
 .wp-block-media-text {
   text-align: left;
   justify-content: center;
-  margin: auto;
-  margin-top: 10rem;
+  margin: 1.5rem auto;
 }
 
 .wp-block-media-text__media {
@@ -477,6 +483,16 @@ header {
   height: 500px;
   width: 550px;
   object-fit: cover;
+}
+
+.line-is-style-default {
+  color: var(--brand-primary);
+  width: 45vw;
+  margin: 1.5rem auto;
+}
+
+.front-page {
+  margin-bottom: 5rem;
 }
 
 footer {

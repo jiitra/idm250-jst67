@@ -12,8 +12,8 @@
     </button>
 
 
-    <?php $image = get_field('bg_img'); ?>
-    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+    <?php $img = get_field('bg_img'); ?>
+    <img src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt']; ?>" />
     
 
 </div>
